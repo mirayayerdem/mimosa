@@ -298,7 +298,7 @@ def run_internvl(df):
     return out
 
 def main():  
-    df = pd.read_csv("/projectnb/llm-stance/multimodal-playground/twitter_dataset/benigns.csv")
+    df = pd.read_csv("ann_dataset_misleading.csv")
     #run claimspotter
     df = run_claimspotter(df)
     #run stella
