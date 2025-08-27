@@ -9,6 +9,12 @@
 - **`baseline_models_ctd_part_1.ipynb`** – Evaluates performance of the CTD tool on tweets with misleading images.  
 - **`llama-70-b model for dataset creation.ipynb`** – Includes baseline models for classification of posts with misleading images; also includes OOC detection and experiments on benign images.  
 
+Please make sure to set the environment variables before running the scripts.
+```
+export HF_TOKEN=your_huggingface_token
+export GOOGLE_API_KEY=your_google_key
+export OPENAI_API_KEY=your_openai_key
+```
 ---
 
 ## Datasets
@@ -24,4 +30,6 @@
 - **`image_caption_analysis_intern_vl_78_2_3.csv`** – 300 samples from the NewsClipping dataset with baseline performances (models, prompt selection, web-source selection).  
 - **`ann_dataset_benign_image_2.json`** – Annotated tweets with benign images and results from baseline models.  
 
-Raw datasets are uploaded in [Zenodo link](https://zenodo.org/records/16957489)
+Raw datasets are uploaded in [Zenodo link](https://zenodo.org/records/16957489) containing following zipped files:
+- **`misleading_images_folder.zip `** – Contains images flagged by PixelMod; ⁠ storyid ⁠ keys in ⁠ all_dataset_misleading.csv ⁠ map to these images.
+- **⁠`benign_images_folder.zip` ⁠** – Contains images not flagged by PixelMod; ⁠ raw_img ⁠ keys in ⁠ all_dataset_benign.json ⁠ map to these images
