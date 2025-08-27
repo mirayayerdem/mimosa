@@ -23,3 +23,5 @@
 - **`baselines_for_part_b_dataset`** – Tweets with benign images plus baseline and `\sys` results.  
 - **`image_caption_analysis_intern_vl_78_2_3.csv`** – 300 samples from the NewsClipping dataset with baseline performances (models, prompt selection, web-source selection).  
 - **`ann_dataset_benign_image_2.json`** – Annotated tweets with benign images and results from baseline models.  
+
+Raw datasets are uploaded in [Zenodo link](https://zenodo.org/records/16957489)
