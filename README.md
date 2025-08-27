@@ -19,8 +19,6 @@
 - **`all_dataset_benign.json`** – Full dataset including images not flagged by PixelMod.  
 - **`ann_dataset_benign.json`** – Annotated subset of `all_dataset_benign.json` with labels: *symmetric-miscaptioned / symmetric-benign / asymmetric*.  
   - Note: the *misleading image* class is removed during evaluation.  
-- **`misleading_images_folder.zip`** – Contains images flagged by PixelMod; `storyid` keys in `all_dataset_misleading.csv` map to these images.  
-- **`benign_images_folder.zip`** – Contains images not flagged by PixelMod; `raw_img` keys in `all_dataset_benign.json` map to these images.  
 - **`baselines_for_part_a_dataset`** – Tweets with misleading images plus baseline and `\sys` results.  
 - **`baselines_for_part_b_dataset`** – Tweets with benign images plus baseline and `\sys` results.  
 - **`image_caption_analysis_intern_vl_78_2_3.csv`** – 300 samples from the NewsClipping dataset with baseline performances (models, prompt selection, web-source selection).  
